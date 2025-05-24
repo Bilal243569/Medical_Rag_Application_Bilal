@@ -19,7 +19,7 @@ const google = createGoogleGenerativeAI({
 
 // gemini-1.5-pro-latest
 // gemini-1.5-pro-exp-0801
-const model = google('models/gemini-1.5-pro-latest', {
+const model = google('models/gemini-2.0-flash-exp', {
     safetySettings: [
         { category: 'HARM_CATEGORY_DANGEROUS_CONTENT', threshold: 'BLOCK_NONE' }
     ],
